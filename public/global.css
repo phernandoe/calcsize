@@ -1,0 +1,67 @@
+/* General styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(90deg, #FFF 18px, transparent 1%) center, linear-gradient(#FFF 18px, transparent 1%) center, rgba(0, 0, 0, 0.05);
+  background-size: 22px 22px;
+
+  font-family: sans-serif;
+
+}
+
+text {
+  text-transform: lowercase;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+/* End - General styles */
+
+/* Media Queries */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Moble */
+@media (max-width: 675px) {
+
+}
+
+/* Large Screens */
+@media (min-width: 1600px) and (max-width: 1999px) {
+
+}
+
+/* Larger Screens */
+@media (min-width: 2000px) {
+
+}
+
+/* End - Media Queries */
